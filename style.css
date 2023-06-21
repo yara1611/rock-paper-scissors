@@ -1,0 +1,24 @@
+body{
+    background-color: palegoldenrod;
+    margin-top: 50px;
+}
+button{
+    background-color: red;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 30px;
+    margin: auto;
+    margin-left: 135px;
+    margin-top: 50px;
+    padding: 10px 15px;
+    border: none;
+}
+#again{
+    margin-left: 135px;
+}
+div{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
