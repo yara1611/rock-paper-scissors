@@ -4,6 +4,8 @@ let countP=0,countC = 0
 
 //creating elements
 const div = document.createElement('div')
+const btns = document.createElement('div')
+btns.id='btnsd'
 const btnRock = document.createElement('button')
 btnRock.innerText="Rock"
 btnRock.id="rock"
@@ -112,9 +114,10 @@ function game(playerSelection,computerSelection){
    
 }
 //add to document
-document.body.appendChild(btnRock)
-document.body.appendChild(btnPaper)
-document.body.appendChild(btnScissors)
+document.body.appendChild(btns)
+btns.appendChild(btnRock)
+btns.appendChild(btnPaper)
+btns.appendChild(btnScissors)
 document.body.appendChild(div)
 document.body.appendChild(btnAgain)
   

@@ -1,24 +1,24 @@
 body{
-    background-color: palegoldenrod;
+    background-color: rgb(198, 241, 241);
     margin-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
 button{
-    background-color: red;
+    background-color: rgb(198, 241, 241);
     border-radius: 15px;
-    color: aliceblue;
+    color: rgb(32, 110, 179);
     font-size: 30px;
-    margin: auto;
-    margin-left: 135px;
-    margin-top: 50px;
     padding: 10px 15px;
-    border: none;
+    border: solid;
+    border-color:rgb(32, 110, 179); ;
 }
+
 #again{
     margin-left: 135px;
 }
 div{
     text-align: center;
-    margin-top: 50px;
     font-size: 20px;
-
+    margin: auto ;
 }
